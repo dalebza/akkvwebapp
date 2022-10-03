@@ -1,0 +1,281 @@
+az login
+az extension add --name databricks
+databricks -help
+az databricks -help
+az databricks --help
+databricks --help
+virtualenv -help
+virtualenv --help
+virtualenv -p /usr/bin/python2.7 databricks
+source databrickscli/bin/activate
+virtualenv -p /usr/bin/python2.7 databrickscli
+source databrickscli/bin/activate
+virtualenv -p /usr/bin/python2.7 databrickscli
+virtualenv --help
+source databrickscli/bin/activate
+cd databrickscli
+dir
+cd bin
+dir
+activate
+cd activate
+run activate
+pip install databricks-cli
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/api/2.0/clusters/get?cluster_id=0628-092436-p0c68gri'
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/api/2.0/clusters/list'
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/'
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/*'
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/api/get'
+login
+az loin
+az login
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/api/2.0/cluster/get?'
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+$env
+man --help
+install --help
+install choco
+env --help
+path --help
+man --help
+install jq
+install-- jq
+install  --help
+install jq -d ./
+dir
+cd jq
+dir
+cd databricks
+cd ..
+cd databricks
+dir
+cd bin
+dir
+dir
+cd ..
+Get-Content -Path ./ini.netrc
+curl --netrc 'https://adb-8328533883236662.2.azuredatabricks.net/api/2.0/cluster/get?'
+curl --netrc
+curl --help
+ls
+dir
+new create-cluster.json
+file
+file -H
+file --help
+create --help
+new create-cluster.json
+s
+ls
+echo "This is a textfile" > testfile.txt
+ls
+echo { "cluster_name":"Test2","spark_version": "10.4.x-scala2.12","node_type_id": "Standard_DS3_v2"} > create-cluster-test2.json
+echo { "cluster_name": "Test2","spark_version": "10.4.x-scala2.12","node_type_id": "Standard_DS3_v2"} > create-cluster-test2.json
+emacs 
+Connect-AzureAD -Confirm
+Install-Module -Name AzureADPreview
+echo { "cluster_name":"Test2","spark_version": "10.4.x-scala2.12","node_type_id": "Standard_DS3_v2"} > create-cluster-test2.json
+Connect-AzureAD -Confirm
+New-AzureADPolicy
+New-AzureADP~
+Connect-AzAccount
+Get-AzEnvironment
+Connect-AzAccount -Environment AzureChinaCloud
+Connect-AzAccount -UseDeviceAuthentication
+Get-AzSubscribtion
+Get-AzSubscription
+Get-AzVM*
+Get-AzV*
+New-AzResourceGroup -name TutorialResources -Location name: Post welcome comment
+on:
+  pull_request:
+New-AzResourceGroup -name TutorialResources -Location southafricanorth
+Connect-AzAccount
+Connect-AzAccount -UseDeviceAuthentication
+New-AzResourceGroup -name TutorialResources -Location South Africa North
+New-AzResourceGroup -name TutorialResources -Location Africa
+New-AzResourceGroup -name TutorialResources -Location southafricanorth
+$vmParams = @{ResourceGroupName = "TutorialResources"`
+Name ="TutorialVM1"`
+Location ="southafricanorth"`
+ImageName = "Win2016DataCenter"`
+PublicAddressName = "tutorialPublicIP"`
+Credential = $cred`
+OpenPorts = 3389`
+Size = "Standard_D2s_v3"}
+$newVM1 = New-AzVM @vmParams
+$vmParams = @{ResourceGroupName = "TutorialResources"`
+Name ="TutorialVM1"`
+Location ="southafricanorth"`
+ImageName = "Win2016DataCenter"`
+PublicIpAddressName = "tutorialPublicIP"`
+Credential = $cred`
+OpenPorts = 3389`
+Size = "Standard_D2s_v3"}
+$newVM1 = New-AzVM @vmParams
+az version
+az account
+az role
+az group
+az group list
+az group
+az group list --query [?locatioun='southafricanorth']
+az group list --query [?location='southafricanorth']
+az ad sp create-for-rbac
+az ad sp list
+a
+az ad sp create-for-rbac -scopes /subscriptions/mySubsciptionID
+az ad sp create-for-rbac -scopes /subscriptions/mySubscriptionID
+az ad sp create-for-rbac -scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d
+az ad sp create-for-rbac -scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandBox
+az ad sp show --id
+az ad sp show --id c2f9a668-b7d3-475f-b2e0-6cba5972f94d
+az ad sp show --id 91af1d1e-73a6-43d5-b5b2-bdb322a98f15
+az ad sp create-for-rbac
+az ad sp create-for-rbac --name MyServicePrincipal
+az ad sp create-for-rbac --name MyServicePrincipal --role Contributor
+az ad sp create-for-rbac --name MyServicePrincipal --role Contributor --scopes /subscriptions/
+az ad sp create-for-rbac --name MyServicePrincipal --role Contributor --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d
+az ad sp list
+az ad sp create-for-rbac --name MyServicePrincipal --role Contributor --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox
+az ad sp create-for-rbac --name MyServiceAccessRole --role Contributor --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox
+az ad sp create-for-rbac --name MyServiceAccessRole --role Reader --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox
+az ad sp create-for-rbac --name MyServiceAccessRole --role Reader --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox --cert MyCert
+az ad sp create-for-rbac --name MyServiceAccessRole --role Reader --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox --cert "---MyCert---"
+az ad sp create-for-rbac --name MyServiceAccessRole --role Reader --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox --create-cert "---MyCert---"
+az ad sp create-for-rbac --name MyServiceAccessRole --role Reader --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox --create-cert 
+az keyvault
+az keyvault list
+az ad sp list
+az ad sp list --display-name MyServicePrincipal
+az ad sp list --display-name MyServiceAccessRole
+az ad sp list --show-mine
+az ad sp list --show-mine --query
+az ad sp create-for-rbac --name MyServiceAccessRole --role Contributor --scopes /subscriptions/c2f9a668-b7d3-475f-b2e0-6cba5972f94d/resourceGroups/MySandbox
+az ad sp list --show-mine --query "[].{id:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --show-mine --query "{id:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --show-mine --query "{appId:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --query "{appId:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list
+az ad sp list --query 
+az ad sp list --query "{appId:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --query "{id:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --query "[].{id:ba82cfc3-69f7-47e0-8817-ce9b41e1b6d4}"
+az ad sp list --show-mine 
+az ad sp list --query "[].{id:appId, tenant:appOwnerTenantId}"
+az roles assignment list
+az role assignment list
+az ad sp list --query "[].{id:appId, tenant:appOwnerTenantId}"
+az role assignment create 
+az role assignment create --assignee MySP --role Contributor
+az role assignment create --assignee 91af1d1e-73a6-43d5-b5b2-bdb322a98f15 --role Contributor
+az role assignment list --assignee 91af1d1e-73a6-43d5-b5b2-bdb322a98f15
+az login 
+az group create --location southafricanorth --name MyResGroup
+az storage account create --name MyStorageAccount --resource-group MyResGroup --kind BlobStorage --sku F0 --location southafricanorth --yes
+az storage account create --name MyStorageAccount --resource-group MyResGroup --kind BlobStorage --sku Standard_LRS --location southafricanorth --yes
+az storage account create --name MyStorageAccount --resource-group MyResGroup --kind BlobStorage --sku Standard_LRS --location southafricanorth 
+az storage account create --name mystorageaccount --resource-group MyResGroup --kind BlobStorage --sku Standard_LRS --location southafricanorth 
+az storage account create --name MyStorageAccount --resource-group MyResGroup --kind BlobStorage --sku Standard_GRS --location southafricanorth --yes
+az storage account create --name MyStorageAccount --resource-group MyResGroup --kind BlobStorage --sku Standard_GRS --location southafricanorth 
+az storage account create --name mystorageaccount --resource-group MyResGroup --kind BlobStorage --sku Standard_GRS --location southafricanorth 
+az storage account create --name mystorageaccount --resource-group MyResGroup --kind BlobStorage --sku Standard_GRS --location southafricanorth --accessTier Cool
+az storage account create --name mystorageaccount --resource-group MyResGroup --sku Standard_GRS --location southafricanorth --accessTier Cool
+az storage account create --name mystorageaccount --resource-group MyResGroup --sku Standard_GRS --location southafricanorth 
+az storage account create --name mystorageaccount1 --resource-group MyResGroup --sku Standard_GRS --location southafricanorth 
+az storage account create --name mystorageaccount2 --resource-group MyResGroup --sku Standard_GRS --location southafricanorth 
+az storage account create --name mystorageaccount2 --resource-group MyResGroup --sku Standard_GRS --location southafricanorth --kind BlobStorage
+az storage account create --name mystorageaccount2 --resource-group MyResGroup --sku Standard_GRS --location southafricanorth --kind Storage
+az storage account create --name newstorageaccount --resource-group MyResGroup --sku Standard_GRS --location southafricanorth --kind Storage
+az storage acount list
+az storage account list
+az storage account list --query "[].{id:appId}"
+az storage account list --query "[].{resource-group:MyResGroup}"
+az storage account list --query "[?resource-group:MyResGroup]"
+az storage account list --query "[].{?resource-group:MyResGroup}"
+az storage account keys list
+az storage account keys list --mystorageaccount --resource-group MyResGroup
+az storage account keys list --name mystorageaccount --resource-group MyResGroup
+az account show
+Get-AzSubscription
+code.
+code .
+az account show
+az account list
+az vm create -n CustomeVM -g MyResGroup -image UbuntuLTS --generate-ssh-keys
+az vm create -n CustomeVM -g MyResGroup --image UbuntuLTS --generate-ssh-keys
+dir
+cd ssh
+cd. ssh
+ cd .ssh
+dir
+cd ..
+ssh -i /home/malebo/.ssh/id_rsa malebo@102.37.99.114
+ssh malebo@102.37.99.114
+Get-Date
+Get-AzVM
+Get-AzVM -status
+Get-AzVM -Status
+PS
+PS Azure
+dir
+az account list
+cd PAy*
+cd Pay*
+Get-AzVM -Status
+cd ./Virtual*
+cd ~/Virtual*
+cd ..
+dir
+cd .
+cd ..
+dir
+cd home
+dir
+cd ..
+cd root
+dir
+cd ..
+cd home
+cd malebo
+dir
+Get-AzVM -Status
+az vm show
+az vm show --resource-group  MyResGroup
+az vm show --resource-group  MyResGroup --name CustomeVM
+$sshPublicKey = Get-Content "$HOME/.ssh/id_rsa.pub"
+Add-AzVMSshPublicKey -VM $vmConfig -KeyData $sshPublicKey -PATH /home/malebo/.ssh/authorized_keys
+$vmConfig = Get-AzVM -ResourceGroupName MyResGroup -Name CustomeVM
+Add-AzVMSshPublicKey -VM $vmConfig -KeyData $sshPublicKey -PATH /home/malebo/.ssh/authorized_keys
+dir
+cd clou*
+dir
+New-Item helloworld.ps1
+code ./helloworld.ps1
+git clone https://github.com/dalebza/firstRepository
+git clone https://github.com/dalebza/firstRepository.git
+dir
+Connect-AzAccount
+Connect-AzAccount -UseDeviceAuthentication
+New-AzResourceGroup -Name TemplateDesignGroup -Location southafricanorth
+$templateFile = "C:\Users\kolam\Documents\VS Code\azuredeploy.json"
+New-AzResourceGroupDeployment -Name blanktemplate -ResourceGroupName TemplateDesignGroup -TemplateFile $templateFile
+dir
+cd clouddrive
+dir
+New-Item azuredeploy.json
+code .\azuredeploy.json
+code  .\azuredeploy.json
+code  .
+$templateFile = "$HOME\cloudrive\azuredeploy.json"
+New-AzResourceGroupDeployment -Name blanktemplate -ResourceGroupName TemplateDesignGroup -TemplateFile $templateFile
+cd ..
+$templateFile = "$HOME\clouddrive\azuredeploy.json"
+New-AzResourceGroupDeployment -Name blanktemplate -ResourceGroupName TemplateDesignGroup -TemplateFile $templateFile
+mkdir akvwebapp
+cd ak*
+dotnet new web
+dotnet run
+git init --initial-branch=main
+git add.
+git add .

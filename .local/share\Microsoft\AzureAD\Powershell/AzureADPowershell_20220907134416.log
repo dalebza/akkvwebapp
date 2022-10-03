@@ -1,0 +1,7 @@
+2022-09-07T13:44:16.9835782Z	Info      	Logger.Initialize                       	Logging initialized at level: Info
+2022-09-07T13:44:16.9836378Z	Info      	Logger.Initialize                       	Logged in at: cc-30b7e0d1-d9b9bd844-l47v4
+2022-09-07T13:44:16.9841749Z	Info      	LogAssemblyInfo                         	Running assembly 	 assemblyInfo : Microsoft.Open.Azure.AD.CommonLibrary, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null 	 assemblyLocation : /usr/local/share/powershell/Modules/AzureAD.Standard.Preview/0.0.0.10/netstandard2.0/Microsoft.Open.Azure.AD.CommonLibrary.dll 	 assemblyName : Microsoft.Open.Azure.AD.CommonLibrary, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null	 assemblyVersion : 0.10.0.0 	 fileVersion : 0.10.0.0 	 productVersion : 0.10.0
+2022-09-07T13:44:16.9842078Z	Info      	Connect-AzureAD.BeginProcessing         	Connecting to the AzureCloud environment.
+2022-09-07T13:44:16.9843413Z	Info      	Connect-AzureAD.ProcessRecord           	Connect to AzureAD with ManagedServiceLogin.
+2022-09-07T13:44:16.9844231Z	Info      	Connect-AzureAD.ProcessRecord           	Azure account type: ManagedService
+2022-09-07T13:44:17.0597661Z	Info      	Connect-AzureAD.ProcessRecord           	Session created with. Account: MSI@50342, Environment: AzureCloud, Tenant: cbc3f0c6-bced-4ea0-9a74-0c995253ccde, domainName: malebokoutlook.onmicrosoft.com, AccountType: ManagedService.

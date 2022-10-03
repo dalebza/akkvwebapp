@@ -1,0 +1,7 @@
+/home/malebo/BestBikeApp/pub/BestBikeApp
+/home/malebo/BestBikeApp/pub/appsettings.Development.json
+/home/malebo/BestBikeApp/pub/appsettings.json
+/home/malebo/BestBikeApp/pub/BestBikeApp.dll
+/home/malebo/BestBikeApp/pub/BestBikeApp.deps.json
+/home/malebo/BestBikeApp/pub/BestBikeApp.runtimeconfig.json
+/home/malebo/BestBikeApp/pub/BestBikeApp.pdb
