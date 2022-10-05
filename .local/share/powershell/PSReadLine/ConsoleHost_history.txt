@@ -279,3 +279,63 @@ dotnet run
 git init --initial-branch=main
 git add.
 git add .
+git commit -m "first commit"
+git config --global  user.email xsmaleps@gmail.com
+git commit -m "first commit"
+git config --global user.name dalebza
+git commit -m "first commit"
+cd ak*
+az group create --name MyKeyVault -l southafricanorth
+az appservice plan create --name CustomAppServicePlan --resource-group MyKeyVault --sku FREE
+az webapp create --resource-group MyKeyVault --plan CustomAppServicePlan --name akvwebapp --deployment-local-git
+az webapp create --resource-group MyKeyVault --plan CustomAppServicePlan --name webkeys --deployment-local-git
+az webpp config appsettings set -g MyKeyVault --name webkeys --settings deployment_branch=main
+az webapp config appsettings set -g MyKeyVault --name webkeys --settings deployment_branch=main
+git remote add azure https://webkeys.azurewebsites.net/
+git push azure main
+git remote add azure https://dalebza@webkeys.scm.azurewebsites.net/webkeys.git
+git push azure main
+az webapp config appsettings set -g MyKeyVault --name webkeys --settings deployment_branch=main
+git remote add azure https://dalebza@webkeys.scm.azurewebsites.net/webkeys.git
+git remote help
+git remote remove azure https://webkeys.azurewebsites.net/
+git remote remove deploymentLocalGitUrl
+git remote remove azure
+git remote add azure https://dalebza@webkeys.scm.azurewebsites.net/webkeys.git
+git push azure main
+az webapp identity assign --name webkeys --resource-group MyKeyVault
+az keyvault create --name myWebkeysKeyVault --resource-group MyKeyVault -location southafricanorth
+az keyvault create --name myWebkeysKeyVault --resource-group MyKeyVault --location southafricanorth
+dotnet add package Azure.Identity
+dir
+emacs Program.cs
+code .
+git remote add azure https://github.com/dalebza/webkeys
+git remote remove azure
+git remote add azure https://github.com/dalebza/webkeys
+git push --set-upstream azure main
+git remote add azure https://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@github.com/dalebza/webkeys.git
+git remote remove azure
+git remote add azure https://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@github.com/dalebza/webkeys.git
+git push --set-upstream azure main
+dir
+cd ak*
+dir
+cd ..
+cd ak
+cd ak*
+dir
+git remote add origin https://github.com/dalebza/akvwebapp.git
+git push -u origin main
+git remote add azure https://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@github.com/dalebza/akvwebapp.git
+git remote remove azure
+git remote add azure https://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@github.com/dalebza/akvwebapp.git
+git push --set-up stream origin main
+git push --set-upstream origin main
+git remote add azure https://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@github.com/dalebza/akvwebapp.git
+git remote remove azure
+git remote add azure https://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@github.com/dalebza/akvwebapp.git
+git push --set-upstream origin main
+git push azure main
+git status
+git add .
